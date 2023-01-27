@@ -9,7 +9,6 @@ public class RandomNumbers {
     private static final List<Integer> previousValues = new ArrayList<Integer>();
     private static Random generator;
 
-
     public static void main(String[] args) {
         int y = Integer.parseInt(args[0]);
         generator = new Random();
